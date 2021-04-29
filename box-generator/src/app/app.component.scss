@@ -1,0 +1,37 @@
+
+.square{
+    border: 1px solid gray;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    top:0;
+    left: 0;
+    position: relative;
+    background-color: white;
+}
+.main{
+  padding: 10px;
+}
+
+.grid-container {
+    display: grid;
+    grid-column-gap: 10px;
+    grid-template-columns: repeat(7, 1fr);
+    border: 1px solid gray;
+    position: relative;
+  }
+  
+  .highlight{ 
+    background-color: #1391da;
+}
+
+.mat-button-toggle-checked{
+    background-color: #1391da;
+    color: white;
+  }
+
+.create{
+  background-color: #1391da;
+  color: white;
+}
+  

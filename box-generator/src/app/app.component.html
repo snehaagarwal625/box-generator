@@ -1,0 +1,16 @@
+<header>
+  <app-header></app-header>
+</header>
+<div class="main">
+Click on the button to create a new box:
+<button mat-button color="primary" (click)=createBoxes($event) class="create">create box</button>
+<p>Keyboard movement enable:
+    <mat-button-toggle-group name="fontStyle" aria-label="Font Style" [(ngModel)]="isListenerOn">
+      <mat-button-toggle [value]="true">On</mat-button-toggle>
+      <mat-button-toggle [value]="false">Off</mat-button-toggle>
+    </mat-button-toggle-group>
+  </p>
+<div class="grid-container">
+    <div *ngFor="let box of boxes;let i = index;" class="square" (click)="selectBox(box, $event)" [ngClass]="{'highlight': selectedIndex === i}" ></div>
+</div>
+</div>
