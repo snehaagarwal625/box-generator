@@ -20,11 +20,11 @@ Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.
 Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
 
 ## About the application
-> User gets to see a button to add a new box in the window.
-> On clicking the button, a box is created of fixed width and height.
-> Users can add multiple boxes.
-> On clicking the box, the box gets highlighted.
-> To move the box, we can use keyboard arrow keys.
-> To remove the selected box, we click on the keyboard delete key.
-> A button is present to toggle keyboard control.
-> The boxes will stay within the rectangular fence during the movement.
+- User gets to see a button to add a new box in the window.
+- On clicking the button, a box is created of fixed width and height.
+- Users can add multiple boxes.
+- On clicking the box, the box gets highlighted.
+- To move the box, we can use keyboard arrow keys.
+- To remove the selected box, we click on the keyboard delete key.
+- A button is present to toggle keyboard control.
+- The boxes will stay within the rectangular fence during the movement.
